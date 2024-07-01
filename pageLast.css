@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Khmer:wght@100..900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  font-weight: 600;
+  box-sizing: border-box;
+}
+.navbar ul li{
+  margin: 7px;
+}
+.navbar ul li a{
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "Varela Round", sans-serif;
+}
+.navbar ul li a:hover{
+  opacity: .9;
+  border-bottom: 1px solid;
+}
+.navbar-brand{
+  font-family: "Anton", sans-serif;
+}
+ul .dropdown-menu li a{
+  font-weight: 700;
+  font-size: 15px;
+}
+ul .dropdown-menu li a:hover{
+  transform: translateX(10px);
+  background-color: orange;
+  color: greenyellow;
+}
+.icon{
+  margin-left: 1%;
+}
+.icon i{
+  font-size: 2rem;
+  color: green;
+  margin-left: 15px;
+  margin-top: 3px;
+
+}
+.icon .slo{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid orangered;
+  
+}
+.icon .slo:hover{
+  background-color: orange;
+}
+
+/*  */
+.top h1{
+  font-size: 2.5rem;
+  color: white;
+  font-weight: 700;
+}
+.top  p{
+  color: aliceblue;
+  font-size: 20px;
+  font-weight: 700;
+}
+.top a{
+  text-decoration: none;
+  color: greenyellow;
+  margin: 5px;
+}
+.top a:hover{
+  opacity: .9;
+  
+}
+
+
+/*  */
+
+.mid, .under i{
+  font-size: 7rem;
+}
+.mid h1,h2,h3,h4{
+  font-weight: 1000;
+  font-size: 2rem;
+  font-family: "Noto Serif Khmer", serif;
+}
+.under h1{
+  font-size: 3.5rem;
+  color: darkcyan;
+  font-weight: 900;
+}
+.under h3{
+  color: deeppink;
+}
+.under p{
+  font-size: 20px;
+  color: dimgrey;
+
+}
+.under span button{
+  width: 200px;
+  height: 50px;
+  color: green;
+  border-radius: 20px;
+  background-color: whitesmoke;
+  border: 2px solid orange;
+}
+.under span button:hover{
+  background-color: orange;
+  color: white;
+}
+
+/*  */
+/*  */
+.card-footer button{
+  border-radius: 25px;
+  padding: 5px 10px;
+  font-weight: 600;
+  color: green;
+  border: 2px solid orange;
+}
+.mt-5 nav ul li{
+  margin: 7px;
+  padding: 5px;
+}
+.mt-5 nav ul li a{
+  border: 2px solid orange;
+  border-radius: 5px;
+  height: 45px;
+  width: 45px;
+  color: black;
+}
+.mt-5 nav ul li a:hover{
+  background-color: greenyellow;
+  color: black;
+  border: 2px solid orange;
+}
+
+
+.gp_btn .slo{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 2px solid orange;
+  float: right;
+  margin: 5px;
+  
+}
+.gp_btn .slo:hover{
+  background-color: orange;
+}
+.nomally{
+  height: 60px;
+  width: 550px;
+  border: 5px solid orange;
+  border-radius: 35px;
+  padding: 2px 0px;
+   
+}
+.nomally input{
+  border-radius: 35px;
+  border: none;
+  position: relative;
+  background-color:darkslategrey;
+  color: green;
+
+}
+.nomally button{
+  border-radius: 35px;
+  border: 4px solid green;
+  width: 200px;
+  position: absolute;
+  color: white;
+  background-color: green;
+}
+.nomally button:hover{
+  color: white;
+  background-color: orange;
+}
+
+.con-info li{
+  text-decoration: none;
+  margin-top: 3%;
+  font-weight: 600;
+  color:darkgrey;
+}
+.con-info li:hover{
+  color: orange;
+}
+.con-info p{
+  color: darkgrey;
+  font-weight: 600;
+}
+.con-info h3{
+  font-size: 1.25rem;
+}
+.con-info button{
+  width: 150px;
+  height: 50px;
+  margin-top: 15px;
+  border-radius: 18px;
+  border: 2px solid orange;
+  color: greenyellow;
+  background-color: darkslategrey;
+}
+.con-info button:hover{
+  background-color: orange;
+}
+.con-info .boxbank{
+  height: 5vh;
+}
+.con-info .boxbank img{
+  margin: 2%;
+  border-radius: 5px;
+}
+
+body .chic{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 2px solid orange;
+  background-color: green;
+  animation-delay: 1.5s;
+  float: right;
+  position: fixed;
+  right: 0%;
+  bottom: 100px;
+  
+}
+.chic:hover{
+  background-color: orange;
+}

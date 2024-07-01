@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sorting Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            margin: 20px;
+        }
+        .sort-dropdown {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <label for="sort">Default Sorting:</label>
+        <select id="sort" class="sort-dropdown" onchange="sortItems()">
+            <option value="nothing">Nothing</option>
+            <option value="price">Price</option>
+            <option value="popularity">Popularity</option>
+            <option value="alphabetical">Alphabetical</option>
+        </select>
+
+        <input type="range" name="" id="">
+    </div>
+
+    <script>
+        function sortItems() {
+            const sortValue = document.getElementById('sort').value;
+            const itemsContainer = document.getElementById('items');
+            const items = Array.from(itemsContainer.getElementsByClassName('item'));
+
+            if (sortValue === 'price') {
+                items.sort((a, b) => a.getAttribute('data-price') - b.getAttribute('data-price'));
+            } else if (sortValue === 'popularity') {
+                items.sort((a, b) => a.getAttribute('data-popularity') - b.getAttribute('data-popularity'));
+            } else if (sortValue === 'alphabetical') {
+                items.sort((a, b) => a.textContent.localeCompare(b.textContent));
+            }
+
+            items.forEach(item => itemsContainer.appendChild(item));
+        }
+    </script>
+</body>
+</html>

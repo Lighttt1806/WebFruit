@@ -1,0 +1,345 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/bootrap/bootstrap.min.css">
+  <link rel="stylesheet" href="pageTest.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <title>WebFruites</title>
+  <link rel="icon" href="logott.png">
+</head>
+<body>
+  <div style="position: sticky; z-index: 999; top: 0; background-color:azure; border-radius: 50px;" class="container-fluid mt-2">
+    <div class="container">
+      <header class="navbar navbar-expand-lg d-flex justify-content-between ">
+        <div class="navbar-brand w-25"><h1 style="font-size: 3rem;  " class="text-success">The Light</h1></div>
+        <button style="color: green;" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+          <i class="fa fa-bars"></i>
+        </button>
+        <nav class="collapse navbar-collapse w-50 justify-content-between" id="navbarSupportedContent">
+          <ul class="navbar-nav list-unstyled d-flex">
+            <li class="nav-item"><a href="index.html" class="nav-link text-success">Home</a></li>
+            <li class="nav-item"><a href="page2.html" class="nav-link text-success">Shop</a></li>
+            <li class="nav-item"><a href="page3.html" class="nav-link text-success">Shop Detail</a></li>
+            <li class="nav-item dropdown">
+              <a href="#" class="nav-link text-success dropdown-toggle text-warning" data-bs-toggle="dropdown">Pages</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="pageCart.html">Cart</a></li>
+                <li><a class="dropdown-item" href="pageCheck.html">Check Out</a></li>
+                <li><a class="dropdown-item text-success bg-warning" href="#">Testimonial</a></li>
+                <li><a class="dropdown-item" href="pageLast.html">I Want Love</a></li>
+              </ul>
+            </li>
+            <li class="nav-item"><a href="page4.html" class="nav-link text-success">Contact</a></li>
+          </ul>
+          <div class="icon w-25 d-flex">
+              <button class="slo btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#off">
+                <i class="fa-solid fa-magnifying-glass" style="color: #63E6BE; font-size: 1rem; margin: 0%;"></i>
+              </button>
+
+              <div style="height: 60%;" class="offcanvas offcanvas-top" tabindex="-1" id="off" aria-labelledby="offcanvasTopLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasTopLabel">Search by keyword</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div style="margin-top: 10%;" class="offcanvas-body">
+                  <div class="off input-group mb-3 d-flex justify-content-center">
+                    <input type="text" class="w-50 p-3" placeholder="keyword" aria-label="Username" aria-describedby="basic-addon1">
+                    <span class="input-group-text" id="basic-addon1"><i style="font-size: 1rem; margin: 0%; width: 40px;" class="fa-solid fa-magnifying-glass"></i></span>
+                  </div>
+                </div>
+              </div>
+              <div class="position-relative">
+                <i class="fa-solid fa-bag-shopping" style="color: #63E6BE;">
+                  <span style="font-size: 13px;" class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger mt-3">
+                    7
+                    <span class="visually-hidden">unread messages</span>
+                  </span>
+                
+                </i>
+              </div>
+              <i class="fa-solid fa-user" style="color: #63E6BE;"></i>
+            </div>
+          </div>
+        </nav>
+        
+      </header>
+  </div>
+
+  <div class="top w-100 h-25 p-5" style="background: url(https://fruitsandveggies.org/wp-content/uploads/2008/09/shelley-pauls-I58f47LRQYM-unsplash-1440x480.jpg);">
+      <center>
+        <h1>
+          Testimonial
+        </h1>
+        <p><a href="index.html">Home</a> / <a href="#">Pages</a> / Testimonial</p>
+      </center>
+  </div>
+
+  <!--  -->
+  <div id="Example" class="carousel slide container slid-products mt-5" data-bs-ride="carousel">
+    <center>
+      <h4 class="text-success">Our Testimonial</h4>
+      <h1>Our Client Saying!</h1>
+    </center>
+    <div class="flex-slide row d-flex justify-content-between">
+      <h1 class="col-md-6"></h1>
+      <div class="group_btn col-md-6 d-flex justify-content-end">
+        <button data-bs-target="#Example" data-bs-slide="prev"><i class="fa-solid fa-arrow-right"></i></button>
+        <button data-bs-target="#Example" data-bs-slide="next"><i class="fa-solid fa-arrow-left"></i></button>
+      </div>
+    </div>
+    <div class="carousel-inner">
+      <div class="">
+        <div class="carousel-item active" data-bs-interval="5000">
+          <div class="row">
+            <div class="col-lg-6 col-md-6 mt-5">
+              <div style="border-radius: 20px;background-color:aliceblue;" class="cardclient p-4">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi ipsum ut laudantium facilis dignissimos autem.</p>
+                <hr class="mt-4" style="color: orange; height: 2px;">
+                <div class="d-flex justify-content-between">
+                  <div class="detail w-50 d-flex justify-content-between">
+                    <img class="img-fluid w-25" src="https://futureoflife.org/wp-content/uploads/2020/08/elon_musk_royal_society.jpg" alt="">
+                    <div style="margin-left: 5%;" class="w-75">
+                      <h3>Elon Mask</h3>
+                      <p>Businessman</p>
+                      <i class="fa-solid fa-star" style="color: #63E6BE;"></i>
+                      <i class="fa-solid fa-star" style="color: #63E6BE;"></i>
+                      <i class="fa-solid fa-star" style="color: #63E6BE;"></i>
+                      <i class="fa-solid fa-star" style="color: #63E6BE;"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                  </div>
+                  <div style="font-size: 3rem;" class="w-50 d-flex justify-content-end mt-5"><i class="fa-solid fa-quote-right" style="color: #FFD43B;"></i></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6 col-md-6 mt-5">
+              <div style="border-radius: 20px;background-color:aliceblue;" class="cardclient p-4">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi ipsum ut laudantium facilis dignissimos autem.</p>
+                
+                <hr class="mt-4" style="color: orange; height: 2px;">
+                <div class="d-flex justify-content-between">
+                  <div class="detail w-50 d-flex justify-content-between">
+                    <img class="img-fluid w-25" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzgcMXgjgzOqFm_ZiFtk07q2ZKiWanW8gPQA&s" alt="">
+                    <div style="margin-left: 5%;" class="w-75">
+                      <h3>Jeff Benzos</h3>
+                      <p>Businessman</p>
+                      <i class="fa-solid fa-star" style="color: #63E6BE;"></i>
+                      <i class="fa-solid fa-star" style="color: #63E6BE;"></i>
+                      <i class="fa-solid fa-star" style="color: #63E6BE;"></i>
+                      <i class="fa-solid fa-star" style="color: #63E6BE;"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                  </div>
+                  <div style="font-size: 3rem;" class="w-50 d-flex justify-content-end mt-5"><i class="fa-solid fa-quote-right" style="color: #FFD43B;"></i></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="5000">
+          <div class="row">
+            <div class="col-lg-6 col-md-6 mt-5">
+              <div style="border-radius: 20px;background-color:aliceblue;" class="cardclient p-4">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi ipsum ut laudantium facilis dignissimos autem.</p>
+                
+                <hr class="mt-4" style="color: orange; height: 2px;">
+                <div class="d-flex justify-content-between">
+                  <div class="detail w-50 d-flex justify-content-between">
+                    <img class="img-fluid w-25" src="https://upload.wikimedia.org/wikipedia/commons/1/18/Mark_Zuckerberg_F8_2019_Keynote_%2832830578717%29_%28cropped%29.jpg" alt="">
+                    <div style="margin-left: 5%;" class="w-75">
+                      <h4>Mark Zuckerberg</h4>
+                      <p>CEO of Facebook</p>
+                      <i class="fa-solid fa-star" style="color: #63E6BE;"></i>
+                      <i class="fa-solid fa-star" style="color: #63E6BE;"></i>
+                      <i class="fa-solid fa-star" style="color: #63E6BE;"></i>
+                      <i class="fa-solid fa-star" style="color: #63E6BE;"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                  </div>
+                  <div style="font-size: 3rem;" class="w-50 d-flex justify-content-end mt-5"><i class="fa-solid fa-quote-right" style="color: #FFD43B;"></i></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6 col-md-6 mt-5">
+              <div style="border-radius: 20px;background-color:aliceblue;" class="cardclient p-4">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi ipsum ut laudantium facilis dignissimos autem.</p>
+                
+                <hr class="mt-4" style="color: orange; height: 2px;">
+                <div class="d-flex justify-content-between">
+                  <div class="detail w-50 d-flex justify-content-between">
+                    <img class="img-fluid w-25" src="https://ew.com/thmb/GEXdmt1owQCf6qMHzWWzTJR5tz8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/steve-jobs_l1-1d01f6fdad88463db87ed7a0af53cfaf.jpg" alt="">
+                    <div style="margin-left: 5%;" class="w-75">
+                      <h3>Steve Job</h3>
+                      <p>Former CEO of Apple</p>
+                      <i class="fa-solid fa-star" style="color: #63E6BE;"></i>
+                      <i class="fa-solid fa-star" style="color: #63E6BE;"></i>
+                      <i class="fa-solid fa-star" style="color: #63E6BE;"></i>
+                      <i class="fa-solid fa-star" style="color: #63E6BE;"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                  </div>
+                  <div style="font-size: 3rem;" class="w-50 d-flex justify-content-end mt-5"><i class="fa-solid fa-quote-right" style="color: #FFD43B;"></i></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item" data-bs-interval="5000">
+          <div class="row">
+            <div class="col-lg-6 col-md-6 mt-5">
+              <div style="border-radius: 20px;background-color:aliceblue;" class="cardclient p-4">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi ipsum ut laudantium facilis dignissimos autem.</p>
+                
+                <hr class="mt-4" style="color: orange; height: 2px;">
+                <div class="d-flex justify-content-between">
+                  <div class="detail w-50 d-flex justify-content-between">
+                    <img class="img-fluid w-25" src="https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2019%2F03%2Fbernard-arnault-warren-buffett-lvmh-net-worth-1.jpg?cbr=1&q=90" alt="">
+                    <div style="margin-left: 5%;" class="w-75">
+                      <h4>Bernard Arnault</h4>
+                      <p>CEO of LVMH</p>
+                      <i class="fa-solid fa-star" style="color: #63E6BE;"></i>
+                      <i class="fa-solid fa-star" style="color: #63E6BE;"></i>
+                      <i class="fa-solid fa-star" style="color: #63E6BE;"></i>
+                      <i class="fa-solid fa-star" style="color: #63E6BE;"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                  </div>
+                  <div style="font-size: 3rem;" class="w-50 d-flex justify-content-end mt-5"><i class="fa-solid fa-quote-right" style="color: #FFD43B;"></i></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6 col-md-6 mt-5">
+              <div style="border-radius: 20px;background-color:aliceblue;" class="cardclient p-4">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi ipsum ut laudantium facilis dignissimos autem.</p>
+                
+                <hr class="mt-4" style="color: orange; height: 2px;">
+                <div class="d-flex justify-content-between">
+                  <div class="detail w-50 d-flex justify-content-between">
+                    <img class="img-fluid w-25" src="https://img.jagranjosh.com/imported/images/E/GK/jack-ma-biography.webp" alt="">
+                    <div style="margin-left: 5%;" class="w-75">
+                      <h4>Jack Ma</h4>
+                      <p>Businessman and Investor</p>
+                      <i class="fa-solid fa-star" style="color: #63E6BE;"></i>
+                      <i class="fa-solid fa-star" style="color: #63E6BE;"></i>
+                      <i class="fa-solid fa-star" style="color: #63E6BE;"></i>
+                      <i class="fa-solid fa-star" style="color: #63E6BE;"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                  </div>
+                  <div style="font-size: 3rem;" class="w-50 d-flex justify-content-end mt-5"><i class="fa-solid fa-quote-right" style="color: #FFD43B;"></i></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--  -->
+  <!--  -->
+  <div style="background-color:darkslategrey;  margin-top: 20%;" class="footer w-100 h-auto">
+    <div class="container-fluid p-5">
+        <div class="row">
+          <div class="col-lg-3 col-md-3 col-md-12">
+            <div class="navbar-brand"><h1 style="font-size: 2rem;" class="text-success">The Light</h1></div>
+            <h5 class="text-warning">Fresh Products</h5>
+          </div>
+          <div class="col-lg-3 col-md-3 col-md-6 mt-3 w-50">
+            <div class="nomally input-group">
+              <input type="text" class="form-control" placeholder="Search" aria-label="Recipient's username" aria-describedby="button-addon2">
+              <button class="btn rounded-pill" type="button" id="button-addon2">Button</button>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-md-12 mt-3">
+            <div class="gp_btn">
+              <button class="slo btn" type="button">
+                <i class="fa-brands fa-twitter" style="color: #FFD438; font-size: 1rem; margin: 0%;"></i>
+              </button>
+              <button class="slo btn" type="button">
+                <i class="fa-brands fa-facebook" style="color: #FFD438; font-size: 1rem; margin: 0%;"></i>
+              </button>
+              <button class="slo btn" type="button">
+                <i class="fa-brands fa-youtube" style="color: #FFD438; font-size: 1rem; margin: 0%;"></i>
+              </button>
+              <button class="slo btn" type="button">
+                <i class="fa-brands fa-instagram" style="color: #FFD438; font-size: 1rem; margin: 0%;"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+        <hr class="mt-4" style="color: orange; height: 4px;">
+        <div class="row">
+          <div class="col-lg-3 col-md-3 col-md-6 mt-5">
+            <div class="con-info text-light">
+              <h3>Why People Like Us!</h3>
+              <p>typesetting, remaining essentially unchanged. It was popularised in the 1960s with the like Aldus PageMaker including of Lorem Ipsum.</p>
+              <button>Read More</button>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-md-6 mt-5">
+            <div class="con-info text-light">
+              <h3>Shop Info</h3>
+              <ul class="list-unstyled">
+                <li><a href="#"></a>About Us</li>
+                <li><a href="#"></a>Contact Us</li>
+                <li><a href="#"></a>Privacy Policy</li>
+                <li><a href="#"></a>Term & Condition</li>
+                <li><a href="#"></a>Return Policy</li>
+                <li><a href="#"></a>FAQs & Help</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-md-6 mt-5">
+            <div class="con-info text-light">
+              <h3>Account</h3>
+              <ul class="list-unstyled">
+                <li><a href="#"></a>My Account</li>
+                <li><a href="#"></a>Shop Details</li>
+                <li><a href="#"></a>Shopping Cart</li>
+                <li><a href="#"></a>Wishlist</li>
+                <li><a href="#"></a>Order History</li>
+                <li><a href="#"></a>International Orders</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-md-6 mt-5">
+            <div class="con-info text-light">
+              <h3>Contact</h3>
+              <p>Address: 217H Russey Keo, Phnom Penh</p>
+              <p>Email: ponleuproem6889@gmail.com</p>
+              <p>Phone: +855 975 438 840</p>
+              <p>Payment Accepted</p>
+              <div class="boxbank d-flex justify-content-between w-25">
+                <img src="https://km.visamiddleeast.com/content/dam/VCOM/blogs/visa-blue-gradient-800x450.jpg" alt="">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwqeK4YwRLe6_Jo3S708Zc7OR8kgSsdPQiVQ&s" alt="">
+                <img src="https://ibccambodia.com/wp-content/uploads/2023/09/ABA-Logo-Secondary.png.webp" alt="">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVnE0_oM-DBMjhgZ2M1OZfEXYHa3a_4qrjsg&s" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+        <br>
+        <div class="row">
+          <div style="font-size: 20px;" class="col-lg-6 col-md-12 mt-3">
+            <i class="fa-solid fa-copyright" style="color: #FFD43B;"></i>
+            <a class="text-success" href="#">The Light</a><span class="text-light">,All right reserved</span>
+          </div>
+          <div style="font-size: 20px;" class="col-lg-6 col-md-12 mt-3">
+            <span class="float-end text-light">Designed By <a class="text-success" href="#">Mr.Ponleu</a> Distributed By <a class="text-success" href="#">The Light</a></span>
+          </div>
+        </div>
+    </div>
+  </div>
+  
+  <button class="chic" type="button">
+    <a href="#"><i class="fa-solid fa-arrow-up" style="color: white; font-size: 1rem; margin: 0%;"></i></a>
+  </button>
+</body>
+<script src="/bootrap/bootstrap.bundle.min.js"></script>
+</html>

@@ -1,0 +1,1305 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/bootrap/bootstrap.min.css">
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <title>WebFruites</title>
+  <link rel="icon" href="logott.png">
+</head>
+<body class="w-100 h-auto" style="position: relative;">
+  <div style="position: sticky; z-index: 999; top: 0; background-color:azure; border-radius: 50px;" class="container-fluid mt-2">
+        <div class="container">
+          <header class="navbar navbar-expand-lg d-flex justify-content-between ">
+            <div class="navbar-brand w-25"><h1 style="font-size: 3rem;  " class="text-success">The Light</h1></div>
+            <button style="color: green;" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+              <i class="fa fa-bars"></i>
+            </button>
+            <nav class="collapse navbar-collapse w-50 justify-content-between" id="navbarSupportedContent">
+              <ul class="navbar-nav list-unstyled d-flex">
+                <li class="nav-item"><a href="#" class="nav-link text-warning">Home</a></li>
+                <li class="nav-item"><a href="page2.html" class="nav-link text-success">Shop</a></li>
+                <li class="nav-item"><a href="page3.html" class="nav-link text-success">Shop Detail</a></li>
+                <li class="nav-item dropdown">
+                  <a href="#" class="nav-link text-success dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="pageCart.html">Cart</a></li>
+                    <li><a class="dropdown-item" href="pageCheck.html">Check Out</a></li>
+                    <li><a class="dropdown-item" href="pageTest.html">Testimonial</a></li>
+                    <li><a class="dropdown-item" href="pageLast.html">I Want Love</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item"><a href="page4.html" class="nav-link text-success">Contact</a></li>
+              </ul>
+              <div class="icon w-25 d-flex">
+                  <button class="slo btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#off">
+                    <i class="fa-solid fa-magnifying-glass" style="color: #63E6BE; font-size: 1rem; margin: 0%;"></i>
+                  </button>
+
+                  <div style="height: 60%;" class="offcanvas offcanvas-top" tabindex="-1" id="off" aria-labelledby="offcanvasTopLabel">
+                    <div class="offcanvas-header">
+                      <h5 class="offcanvas-title" id="offcanvasTopLabel">Search by keyword</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div style="margin-top: 10%;" class="offcanvas-body">
+                      <div class="off input-group mb-3 d-flex justify-content-center">
+                        <input type="text" class="w-50 p-3" placeholder="keyword" aria-label="Username" aria-describedby="basic-addon1">
+                        <span class="input-group-text" id="basic-addon1"><i style="font-size: 1rem; margin: 0%; width: 40px;" class="fa-solid fa-magnifying-glass"></i></span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="position-relative">
+                    <i class="fa-solid fa-bag-shopping" style="color: #63E6BE;">
+                      <span style="font-size: 13px;" class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger mt-3">
+                        7
+                        <span class="visually-hidden">unread messages</span>
+                      </span>
+                    
+                    </i>
+                  </div>
+                  <i class="fa-solid fa-user" style="color: #63E6BE;"></i>
+                </div>
+              </div>
+            </nav>
+            
+          </header>
+        </div>
+  </div>
+  <div class=" w-100" style="background-image: url(https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L3JtMjY2LW51bm55LTA4LmpwZw.jpg); height: 80vh;  display: flex ; justify-content: center; align-items: center; ">
+    <div class="row justify-content-between " style="width: 90%; height: 100%; display: flex ; justify-content: center; align-items: center; ">
+      <div class="col-lg-6 col-md-12 mt-3">
+        <p style="font-size: 2.25rem; color: orange;">100% Organic Foods</p>
+        <h1>Organic Veggies &</h1>
+        <h1>Fruits Foods</h1><br>
+        <div class="nomal input-group">
+          <input type="text" class="form-control" placeholder="Search" aria-label="Recipient's username" aria-describedby="button-addon2">
+          <button class="btn rounded-pill" type="button" id="button-addon2">Button</button>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-12 mt-3">
+        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner rounded-3">
+            <div class="carousel-item active" data-bs-interval="10000">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTq5fCUPkxBx_8GuA-e8e1V4qs-sMnnbWCMNgwB21pVQ&s" class="d-block w-100" alt="...">
+              <div class="carousel-caption">
+                <h5 style="height: 40px; font-size: 30px;" class="bg-warning text-success rounded-3">Fruits</h5>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="https://cdn.hswstatic.com/gif/pick-fresh-fruit.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption">
+                <h5 style="height: 40px; font-size: 30px;" class="bg-warning text-success rounded-3">Vegetables</h5>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon bg-success rounded-pill" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+            <span class="carousel-control-next-icon bg-success rounded-pill" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <br><br>
+
+  <div class="container mt-5">
+    <div class="row ">
+      <div class="col-lg-3 col-md-3 col-md-6 mt-5">
+        <div style="box-shadow: 1px; background-color:whitesmoke;" class="card p-2">
+          <div class="card-img-top d-flex justify-content-center">
+            <div class="box-icon rounded-pill">
+              <i class="fa fa-car fa-3x text-light" aria-hidden="true"></i>
+              <div class="area"></div>
+            </div>
+          </div>
+          <div class="card-body mt-2">
+            <center>
+              <h3>Free Shipping</h3>
+              <p class="text-secondary">Free on order over $300</p>
+            </center>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-lg-3 col-md-3 col-md-6 mt-5">
+        <div style="box-shadow: 1px;background-color:whitesmoke;" class="card p-2">
+          <div class="card-img-top d-flex justify-content-center">
+            <div class="box-icon rounded-pill">
+              <i class="fa-solid fa-user-shield fa-3x" style="color: #ffffff;"></i>
+              <div class="area"></div>
+            </div>
+          </div>
+          <div class="card-body mt-2">
+            <center>
+              <h3>Security Payment</h3>
+              <p class="text-secondary">100% sucurity payment</p>
+            </center>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-3 col-md-6 mt-5">
+        <div style="box-shadow: 1px; background-color:whitesmoke;" class="card p-2">
+          <div class="card-img-top d-flex justify-content-center">
+            <div class="box-icon rounded-pill">
+              <i class="fa fa-arrow-right-arrow-left fa-3x text-light" aria-hidden="true"></i>
+              <div class="area"></div>
+            </div>
+          </div>
+          <div class="card-body mt-2">
+            <center>
+              <h3>30 Day Return</h3>
+              <p class="text-secondary">30 day money gurantee</p>
+            </center>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-3 col-md-6 mt-5">
+        <div style="box-shadow: 1px; background-color:whitesmoke;" class="card p-2">
+          <div class="card-img-top d-flex justify-content-center">
+            <div class="box-icon rounded-pill">
+              <i class="fa fa-phone fa-3x text-light" aria-hidden="true"></i>
+              <div class="area"></div>
+            </div>
+          </div>
+          <div class="card-body mt-2">
+            <center>
+              <h3>24/7 Support</h3>
+              <p class="text-secondary">Support every time fast</p>
+            </center>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+ 
+  
+
+  <div class="container" style="margin-top: 10%;">
+    <div class="tab-content">
+      <div class="tab-pane show fade active">
+        <div class="row">
+          <div class="col-sm-6">
+            <h1 style="font-size: 3.5rem;">Our Organic Products</h1>
+          </div>
+          <div class="col-md-6">
+            <ul class="nav nav-pills mb-3 justify-content-between" id="pills-tab" role="tablist">
+              <li class="nav-item" role="presentation">
+                <button class="nav-link active rounded-pill" id="all-tab" data-bs-toggle="pill" data-bs-target="#all" type="button" role="tab" aria-controls="pills-home">All Products</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link rounded-pill" id="Vegetables-tab" data-bs-toggle="pill" data-bs-target="#vegetables" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Vegetables</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link rounded-pill" id="Fruits-tab" data-bs-toggle="pill" data-bs-target="#fruits" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Fruit</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link rounded-pill" id="Bread-tab" data-bs-toggle="pill" data-bs-target="#bread" type="button" role="tab" aria-controls="pills-disabled">Bread</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link rounded-pill" id="meat-tab" data-bs-toggle="pill" data-bs-target="#meat" type="button" role="tab" aria-controls="pills-disabled">Meat</button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    
+      
+      <div class="card-products container mt-3">
+        <div class="tab-content">
+          <div class="tab-pane show fade active" id="all">
+            <div class="row">
+              <div class="col-lg-3 col-md-3 col-md-6 mt-5">
+                <div class="card border-warning">
+                  <img class="img-fluid rounded-top" style="position: relative;" src="https://images.pexels.com/photos/1937124/pexels-photo-1937124.jpeg?auto=compress&cs=tinysrgb&w=600" alt="">
+                  <p style="font-size: 26px; position: absolute; top: 0px; color: white; background-color: orange;" class="rounded p-1 w-25 d-flex justify-content-center">Fruits</p>
+                  <div class="card-body">
+                    <center>
+                      <h3>Grapes</h3>
+                      <p>Lorem ipsum dolor sit amet.</p>
+                    </center>
+                  </div>
+                  <div class="card-footer d-flex justify-content-evenly">
+                    <h4>$333/kg</h4>
+                    <button>
+                      <i class="fa-solid fa-bag-shopping fa-lg mx-1"></i>Add to Card
+                    </button>
+                  </div>
+                </div>
+              </div>
+        
+              <div class="col-lg-3 col-md-3 col-md-6 mt-5">
+                <div class="card border-warning">
+                  <img class="img-fluid rounded-top" style="position: relative;" src="https://images.pexels.com/photos/708777/pexels-photo-708777.jpeg?auto=compress&cs=tinysrgb&w=400" alt="">
+                  <p style="font-size: 26px; position: absolute; top: 0px; color: white; background-color: orange;" class="rounded p-1 w-25 d-flex justify-content-center">Fruits</p>
+                  <div class="card-body">
+                    <center>
+                      <h3>Grapes</h3>
+                      <p>Lorem ipsum dolor sit amet.</p>
+                    </center>
+                  </div>
+                  <div class="card-footer d-flex justify-content-evenly">
+                    <h4>$333/kg</h4>
+                    <button>
+                      <i class="fa-solid fa-bag-shopping fa-lg mx-1"></i>Add to Card
+                    </button>
+                  </div>
+                </div>
+              </div>
+        
+              <div class="col-lg-3 col-md-3 col-md-6 mt-5">
+                <div class="card border-warning">
+                  <img class="img-fluid rounded-top" style="position: relative;" src="https://images.pexels.com/photos/59999/raspberries-fruits-fruit-berries-59999.jpeg?auto=compress&cs=tinysrgb&w=600" alt="">
+                  <p style="font-size: 26px; position: absolute; top: 0px; color: white; background-color: orange;" class="rounded p-1 w-25 d-flex justify-content-center">Fruits</p>
+                  <div class="card-body">
+                    <center>
+                      <h3>Raspberry</h3>
+                      <p>Lorem ipsum dolor sit amet.</p>
+                    </center>
+                  </div>
+                  <div class="card-footer d-flex justify-content-evenly">
+                    <h4>$333/kg</h4>
+                    <button>
+                      <i class="fa-solid fa-bag-shopping fa-lg mx-1"></i>Add to Card
+                    </button>
+                  </div>
+                </div>
+              </div>
+        
+              <div class="col-lg-3 col-md-3 col-md-6 mt-5">
+                <div class="card border-warning">
+                  <img class="img-fluid rounded-top" style="position: relative;" src="https://images.pexels.com/photos/8588203/pexels-photo-8588203.jpeg?auto=compress&cs=tinysrgb&w=400" alt="">
+                  <p style="font-size: 26px; position: absolute; top: 0px; color: white; background-color: orange;" class="rounded p-1 w-25 d-flex justify-content-center">Fruits</p>
+                  <div class="card-body">
+                    <center>
+                      <h3>Apricots</h3>
+                      <p>Lorem ipsum dolor sit amet.</p>
+                    </center>
+                  </div>
+                  <div class="card-footer d-flex justify-content-evenly">
+                    <h4>$333/kg</h4>
+                    <button>
+                      <i class="fa-solid fa-bag-shopping fa-lg mx-1"></i>Add to Card
+                    </button>
+                  </div>
+                </div>
+              </div>
+        
+              <div class="col-lg-3 col-md-3 col-md-6 mt-5">
+                <div class="card border-warning">
+                  <img class="img-fluid rounded-top" style="position: relative;" src="https://images.pexels.com/photos/5966630/pexels-photo-5966630.jpeg?auto=compress&cs=tinysrgb&w=400" alt="">
+                  <p style="font-size: 26px; position: absolute; top: 0px; color: white; background-color: orange;" class="rounded p-1 w-25 d-flex justify-content-center">Fruits</p>
+                  <div class="card-body">
+                    <center>
+                      <h3>Bananas</h3>
+                      <p>Lorem ipsum dolor sit amet.</p>
+                    </center>
+                  </div>
+                  <div class="card-footer d-flex justify-content-evenly">
+                    <h4>$333/kg</h4>
+                    <button>
+                      <i class="fa-solid fa-bag-shopping fa-lg mx-1"></i>Add to Card
+                    </button>
+                  </div>
+                </div>
+              </div>
+        
+              <div class="col-lg-3 col-md-3 col-md-6 mt-5">
+                <div class="card border-warning">
+                  <img class="img-fluid rounded-top" style="position: relative;" src="https://images.pexels.com/photos/2294477/pexels-photo-2294477.jpeg?auto=compress&cs=tinysrgb&w=400" alt="">
+                  <p style="font-size: 26px; position: absolute; top: 0px; color: white; background-color: orange;" class="rounded p-1 w-25 d-flex justify-content-center">Fruits</p>
+                  <div class="card-body">
+                    <center>
+                      <h3>Oranges</h3>
+                      <p>Lorem ipsum dolor sit amet.</p>
+                    </center>
+                  </div>
+                  <div class="card-footer d-flex justify-content-evenly">
+                    <h4>$333/kg</h4>
+                    <button>
+                      <i class="fa-solid fa-bag-shopping fa-lg mx-1"></i>Add to Card
+                    </button>
+                  </div>
+                </div>
+              </div>
+        
+              <div class="col-lg-3 col-md-3 col-md-6 mt-5">
+                <div class="card border-warning">
+                  <img class="img-fluid rounded-top" style="position: relative;" src="https://images.pexels.com/photos/18267778/pexels-photo-18267778/free-photo-of-close-up-of-a-mix-of-berries.jpeg?auto=compress&cs=tinysrgb&w=400" alt="">
+                  <p style="font-size: 26px; position: absolute; top: 0px; color: white; background-color: orange;" class="rounded p-1 w-25 d-flex justify-content-center">Fruits</p>
+                  <div class="card-body">
+                    <center>
+                      <h3>Raspberry</h3>
+                      <p>Lorem ipsum dolor sit amet.</p>
+                    </center>
+                  </div>
+                  <div class="card-footer d-flex justify-content-evenly">
+                    <h4>$333/kg</h4>
+                    <button>
+                      <i class="fa-solid fa-bag-shopping fa-lg mx-1"></i>Add to Card
+                    </button>
+                  </div>
+                </div>
+              </div>
+        
+              <div class="col-lg-3 col-md-3 col-md-6 mt-5">
+                <div class="card border-warning">
+                  <img class="img-fluid rounded-top" style="position: relative;" src="https://images.pexels.com/photos/2487443/pexels-photo-2487443.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+                  <p style="font-size: 26px; position: absolute; top: 0px; color: white; background-color: orange;" class="rounded p-1 w-25 d-flex justify-content-center">Fruits</p>
+                  <div class="card-body">
+                    <center>
+                      <h3>Apples</h3>
+                      <p>Lorem ipsum dolor sit amet.</p>
+                    </center>
+                  </div>
+                  <div class="card-footer d-flex justify-content-evenly">
+                    <h4>$333/kg</h4>
+                    <button>
+                      <i class="fa-solid fa-bag-shopping fa-lg mx-1"></i>Add to Card
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="tab-pane show " id="Vegetables">
+            <div class="row">
+              <div class="col-lg-3 col-md-3 col-md-6 mt-5">
+                <div class="card border-warning">
+                  <img class="img-fluid rounded-top" style="position: relative;" src="https://images.pexels.com/photos/708777/pexels-photo-708777.jpeg?auto=compress&cs=tinysrgb&w=400" alt="">
+                  <p style="font-size: 26px; position: absolute; top: 0px; color: white; background-color: orange;" class="rounded p-1 w-25 d-flex justify-content-center">Fruits</p>
+                  <div class="card-body">
+                    <center>
+                      <h3>Grapes</h3>
+                      <p>Lorem ipsum dolor sit amet.</p>
+                    </center>
+                  </div>
+                  <div class="card-footer d-flex justify-content-evenly">
+                    <h4>$333/kg</h4>
+                    <button>
+                      <i class="fa-solid fa-bag-shopping fa-lg mx-1"></i>Add to Card
+                    </button>
+                  </div>
+                </div>
+              </div>
+        
+              <div class="col-lg-3 col-md-3 col-md-6 mt-5">
+                <div class="card border-warning">
+                  <img class="img-fluid rounded-top" style="position: relative;" src="https://images.pexels.com/photos/59999/raspberries-fruits-fruit-berries-59999.jpeg?auto=compress&cs=tinysrgb&w=600" alt="">
+                  <p style="font-size: 26px; position: absolute; top: 0px; color: white; background-color: orange;" class="rounded p-1 w-25 d-flex justify-content-center">Fruits</p>
+                  <div class="card-body">
+                    <center>
+                      <h3>Raspberry</h3>
+                      <p>Lorem ipsum dolor sit amet.</p>
+                    </center>
+                  </div>
+                  <div class="card-footer d-flex justify-content-evenly">
+                    <h4>$333/kg</h4>
+                    <button>
+                      <i class="fa-solid fa-bag-shopping fa-lg mx-1"></i>Add to Card
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="tab-pane show " id="Fruits">
+            <div class="row">
+              
+              <div class="col-lg-3 col-md-3 col-md-6 mt-5">
+                <div class="card border-warning">
+                  <img class="img-fluid rounded-top" style="position: relative;" src="https://images.pexels.com/photos/5966630/pexels-photo-5966630.jpeg?auto=compress&cs=tinysrgb&w=400" alt="">
+                  <p style="font-size: 26px; position: absolute; top: 0px; color: white; background-color: orange;" class="rounded p-1 w-25 d-flex justify-content-center">Fruits</p>
+                  <div class="card-body">
+                    <center>
+                      <h3>Bananas</h3>
+                      <p>Lorem ipsum dolor sit amet.</p>
+                    </center>
+                  </div>
+                  <div class="card-footer d-flex justify-content-evenly">
+                    <h4>$333/kg</h4>
+                    <button>
+                      <i class="fa-solid fa-bag-shopping fa-lg mx-1"></i>Add to Card
+                    </button>
+                  </div>
+                </div>
+              </div>
+        
+              <div class="col-lg-3 col-md-3 col-md-6 mt-5">
+                <div class="card border-warning">
+                  <img class="img-fluid rounded-top" style="position: relative;" src="https://images.pexels.com/photos/2294477/pexels-photo-2294477.jpeg?auto=compress&cs=tinysrgb&w=400" alt="">
+                  <p style="font-size: 26px; position: absolute; top: 0px; color: white; background-color: orange;" class="rounded p-1 w-25 d-flex justify-content-center">Fruits</p>
+                  <div class="card-body">
+                    <center>
+                      <h3>Oranges</h3>
+                      <p>Lorem ipsum dolor sit amet.</p>
+                    </center>
+                  </div>
+                  <div class="card-footer d-flex justify-content-evenly">
+                    <h4>$333/kg</h4>
+                    <button>
+                      <i class="fa-solid fa-bag-shopping fa-lg mx-1"></i>Add to Card
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="tab-pane show " id="Bread">
+            <div class="row">
+              <div class="col-lg-3 col-md-3 col-md-6 mt-5">
+                <div class="card border-warning">
+                  <img class="img-fluid rounded-top" style="position: relative;" src="https://images.pexels.com/photos/59999/raspberries-fruits-fruit-berries-59999.jpeg?auto=compress&cs=tinysrgb&w=600" alt="">
+                  <p style="font-size: 26px; position: absolute; top: 0px; color: white; background-color: orange;" class="rounded p-1 w-25 d-flex justify-content-center">Fruits</p>
+                  <div class="card-body">
+                    <center>
+                      <h3>Raspberry</h3>
+                      <p>Lorem ipsum dolor sit amet.</p>
+                    </center>
+                  </div>
+                  <div class="card-footer d-flex justify-content-evenly">
+                    <h4>$333/kg</h4>
+                    <button>
+                      <i class="fa-solid fa-bag-shopping fa-lg mx-1"></i>Add to Card
+                    </button>
+                  </div>
+                </div>
+              </div>
+        
+              <div class="col-lg-3 col-md-3 col-md-6 mt-5">
+                <div class="card border-warning">
+                  <img class="img-fluid rounded-top" style="position: relative;" src="https://images.pexels.com/photos/8588203/pexels-photo-8588203.jpeg?auto=compress&cs=tinysrgb&w=400" alt="">
+                  <p style="font-size: 26px; position: absolute; top: 0px; color: white; background-color: orange;" class="rounded p-1 w-25 d-flex justify-content-center">Fruits</p>
+                  <div class="card-body">
+                    <center>
+                      <h3>Apricots</h3>
+                      <p>Lorem ipsum dolor sit amet.</p>
+                    </center>
+                  </div>
+                  <div class="card-footer d-flex justify-content-evenly">
+                    <h4>$333/kg</h4>
+                    <button>
+                      <i class="fa-solid fa-bag-shopping fa-lg mx-1"></i>Add to Card
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="tab-pane show " id="Meat">
+            <div class="row">
+              <div class="col-lg-3 col-md-3 col-md-6 mt-5">
+                <div class="card border-warning">
+                  <img class="img-fluid rounded-top" style="position: relative;" src="https://images.pexels.com/photos/2294477/pexels-photo-2294477.jpeg?auto=compress&cs=tinysrgb&w=400" alt="">
+                  <p style="font-size: 26px; position: absolute; top: 0px; color: white; background-color: orange;" class="rounded p-1 w-25 d-flex justify-content-center">Fruits</p>
+                  <div class="card-body">
+                    <center>
+                      <h3>Oranges</h3>
+                      <p>Lorem ipsum dolor sit amet.</p>
+                    </center>
+                  </div>
+                  <div class="card-footer d-flex justify-content-evenly">
+                    <h4>$333/kg</h4>
+                    <button>
+                      <i class="fa-solid fa-bag-shopping fa-lg mx-1"></i>Add to Card
+                    </button>
+                  </div>
+                </div>
+              </div>
+        
+              <div class="col-lg-3 col-md-3 col-md-6 mt-5">
+                <div class="card border-warning">
+                  <img class="img-fluid rounded-top" style="position: relative;" src="https://images.pexels.com/photos/18267778/pexels-photo-18267778/free-photo-of-close-up-of-a-mix-of-berries.jpeg?auto=compress&cs=tinysrgb&w=400" alt="">
+                  <p style="font-size: 26px; position: absolute; top: 0px; color: white; background-color: orange;" class="rounded p-1 w-25 d-flex justify-content-center">Fruits</p>
+                  <div class="card-body">
+                    <center>
+                      <h3>Raspberry</h3>
+                      <p>Lorem ipsum dolor sit amet.</p>
+                    </center>
+                  </div>
+                  <div class="card-footer d-flex justify-content-evenly">
+                    <h4>$333/kg</h4>
+                    <button>
+                      <i class="fa-solid fa-bag-shopping fa-lg mx-1"></i>Add to Card
+                    </button>
+                  </div>
+                </div>
+              </div>
+        
+              <div class="col-lg-3 col-md-3 col-md-6 mt-5">
+                <div class="card border-warning">
+                  <img class="img-fluid rounded-top" style="position: relative;" src="https://images.pexels.com/photos/2487443/pexels-photo-2487443.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+                  <p style="font-size: 26px; position: absolute; top: 0px; color: white; background-color: orange;" class="rounded p-1 w-25 d-flex justify-content-center">Fruits</p>
+                  <div class="card-body">
+                    <center>
+                      <h3>Apples</h3>
+                      <p>Lorem ipsum dolor sit amet.</p>
+                    </center>
+                  </div>
+                  <div class="card-footer d-flex justify-content-evenly">
+                    <h4>$333/kg</h4>
+                    <button>
+                      <i class="fa-solid fa-bag-shopping fa-lg mx-1"></i>Add to Card
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+
+  <!--  -->
+
+  <div class="card-dis container" style="margin-top: 10%;">
+    <div class="row">
+      <div class="col-lg-4 col-md-4 col-md-6 mt-5">
+        <div class="card border-warning">
+          <img  class="img-fluid rounded-top" src="data:image/jpeg;base64,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" alt="">
+          <div class="card-body">
+            
+          </div>
+          <div class="krum rounded-3 p-3">
+              <center><h5 class="text-light">Fresh Apples</h5>
+                <h3>20% off</h3></center>
+          </div>
+        </div>
+    </div>
+
+      <div class="col-lg-4 col-md-4 col-md-6 mt-5">
+        <div class="card border-secondary">
+          <img  class="img-fluid rounded-top" src="data:image/jpeg;base64,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" alt="">
+          <div class="card-body" style="background-color:darkslategray ;">
+            
+          </div>
+          <div class="krum rounded-3 p-3" style="background-color: white; border: 1px solid;">
+              <center><h5 class="text-success">Tasty Fruits</h5>
+                <h3>Free delivery</h3></center>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-4 col-md-6 mt-5">
+        <div class="card border-success">
+          <img  class="img-fluid rounded-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnmsTqc4RhMDFWD3kmkwhJX-zzKAAx-mdnjw&s" alt="">
+          <div class="card-body" style="background-color: greenyellow;">
+            
+          </div>
+          <div class="krum rounded-3 p-3" style="background-color: orange;">
+              <center><h5 class="text-light">Exotic Vegetables</h5>
+                <h3 style="font-size: 24px;">Discount 40$</h3></center>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+ <!--  -->
+
+  <div id="carouselExample" class="carousel slide container slid-products" data-bs-ride="carousel" style="margin-top: 15%;">
+    <div class="flex-slide row d-flex justify-content-between">
+      <h1 class="col-md-6">Fresh Organic Vegtables</h1>
+      <div class="group_btn col-md-6 d-flex justify-content-end">
+        <button data-bs-target="#carouselExample" data-bs-slide="prev"><i class="fa-solid fa-arrow-right"></i></button>
+        <button data-bs-target="#carouselExample" data-bs-slide="next"><i class="fa-solid fa-arrow-left"></i></button>
+      </div>
+    </div>
+    <div class="carousel-inner"> 
+      <div class="">
+        <div class="carousel-item active" data-bs-interval="5000">
+          <div class="row">
+            <div class="col-lg-3 col-md-3 col-md-6 mt-5">
+              <div class="card border-success">
+                <img class="img-fluid rounded-top" style="position: relative;" src="https://images.pexels.com/photos/1937124/pexels-photo-1937124.jpeg?auto=compress&cs=tinysrgb&w=600" alt="">
+                <p style="font-size: 20px; position: absolute; top: 2px; color: white; background-color: green; right: 0px; border-radius: 15px;" class="p-1 w-50 d-flex justify-content-center">Vegetables</p>
+                <div class="card-body">
+                  <center>
+                    <h3>Grapes</h3>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                  </center>
+                </div>
+                <div class="card-footer d-flex justify-content-evenly">
+                  <h4>$333/kg</h4>
+                  <button>
+                    <i class="fa-solid fa-bag-shopping fa-lg mx-1"></i>Add to Card
+                  </button>
+                </div>
+              </div>
+            </div>
+      
+            <div class="col-lg-3 col-md-3 col-md-6 mt-5">
+              <div class="card border-success">
+                <img class="img-fluid rounded-top" style="position: relative;" src="https://images.pexels.com/photos/708777/pexels-photo-708777.jpeg?auto=compress&cs=tinysrgb&w=400" alt="">
+                <p style="font-size: 20px; position: absolute; top: 2px; color: white; background-color: green; right: 0px; border-radius: 15px;" class="p-1 w-50 d-flex justify-content-center">Vegetables</p>
+                <div class="card-body">
+                  <center>
+                    <h3>Grapes</h3>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                  </center>
+                </div>
+                <div class="card-footer d-flex justify-content-evenly">
+                  <h4>$333/kg</h4>
+                  <button>
+                    <i class="fa-solid fa-bag-shopping fa-lg mx-1"></i>Add to Card
+                  </button>
+                </div>
+              </div>
+            </div>
+      
+            <div class="col-lg-3 col-md-3 col-md-6 mt-5">
+              <div class="card border-success">
+                <img class="img-fluid rounded-top" style="position: relative;" src="https://images.pexels.com/photos/59999/raspberries-fruits-fruit-berries-59999.jpeg?auto=compress&cs=tinysrgb&w=600" alt="">
+                <p style="font-size: 20px; position: absolute; top: 2px; color: white; background-color: green; right: 0px; border-radius: 15px;" class="p-1 w-50 d-flex justify-content-center">Vegetables</p>
+                <div class="card-body">
+                  <center>
+                    <h3>Raspberry</h3>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                  </center>
+                </div>
+                <div class="card-footer d-flex justify-content-evenly">
+                  <h4>$333/kg</h4>
+                  <button>
+                    <i class="fa-solid fa-bag-shopping fa-lg mx-1"></i>Add to Card
+                  </button>
+                </div>
+              </div>
+            </div>
+      
+            <div class="col-lg-3 col-md-3 col-md-6 mt-5">
+              <div class="card border-success">
+                <img class="img-fluid rounded-top" style="position: relative;" src="https://images.pexels.com/photos/8588203/pexels-photo-8588203.jpeg?auto=compress&cs=tinysrgb&w=400" alt="">
+                <p style="font-size: 20px; position: absolute; top: 2px; color: white; background-color: green; right: 0px; border-radius: 15px;" class="p-1 w-50 d-flex justify-content-center">Vegetables</p>
+                <div class="card-body">
+                  <center>
+                    <h3>Apricots</h3>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                  </center>
+                </div>
+                <div class="card-footer d-flex justify-content-evenly">
+                  <h4>$333/kg</h4>
+                  <button>
+                    <i class="fa-solid fa-bag-shopping fa-lg mx-1"></i>Add to Card
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="5000">
+          <div class="row">
+            <div class="col-lg-3 col-md-3 col-md-6 mt-5">
+              <div class="card border-success">
+                <img class="img-fluid rounded-top" style="position: relative;" src="https://images.pexels.com/photos/5966630/pexels-photo-5966630.jpeg?auto=compress&cs=tinysrgb&w=400" alt="">
+                <p style="font-size: 20px; position: absolute; top: 2px; color: white; background-color: green; right: 0px; border-radius: 15px;" class="p-1 w-50 d-flex justify-content-center">Vegetables</p>
+                <div class="card-body">
+                  <center>
+                    <h3>Bananas</h3>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                  </center>
+                </div>
+                <div class="card-footer d-flex justify-content-evenly">
+                  <h4>$333/kg</h4>
+                  <button>
+                    <i class="fa-solid fa-bag-shopping fa-lg mx-1"></i>Add to Card
+                  </button>
+                </div>
+              </div>
+            </div>
+      
+            <div class="col-lg-3 col-md-3 col-md-6 mt-5">
+              <div class="card border-success">
+                <img class="img-fluid rounded-top" style="position: relative;" src="https://images.pexels.com/photos/2294477/pexels-photo-2294477.jpeg?auto=compress&cs=tinysrgb&w=400" alt="">
+                <p style="font-size: 20px; position: absolute; top: 2px; color: white; background-color: green; right: 0px; border-radius: 15px;" class="p-1 w-50 d-flex justify-content-center">Vegetables</p>
+                <div class="card-body">
+                  <center>
+                    <h3>Oranges</h3>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                  </center>
+                </div>
+                <div class="card-footer d-flex justify-content-evenly">
+                  <h4>$333/kg</h4>
+                  <button>
+                    <i class="fa-solid fa-bag-shopping fa-lg mx-1"></i>Add to Card
+                  </button>
+                </div>
+              </div>
+            </div>
+      
+            <div class="col-lg-3 col-md-3 col-md-6 mt-5">
+              <div class="card border-success">
+                <img class="img-fluid rounded-top" style="position: relative;" src="https://images.pexels.com/photos/18267778/pexels-photo-18267778/free-photo-of-close-up-of-a-mix-of-berries.jpeg?auto=compress&cs=tinysrgb&w=400" alt="">
+                <p style="font-size: 20px; position: absolute; top: 2px; color: white; background-color: green; right: 0px; border-radius: 15px;" class="p-1 w-50 d-flex justify-content-center">Vegetables</p>
+                <div class="card-body">
+                  <center>
+                    <h3>Raspberry</h3>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                  </center>
+                </div>
+                <div class="card-footer d-flex justify-content-evenly">
+                  <h4>$333/kg</h4>
+                  <button>
+                    <i class="fa-solid fa-bag-shopping fa-lg mx-1"></i>Add to Card
+                  </button>
+                </div>
+              </div>
+            </div>
+      
+            <div class="col-lg-3 col-md-3 col-md-6 mt-5">
+              <div class="card border-success">
+                <img class="img-fluid rounded-top" style="position: relative;" src="https://images.pexels.com/photos/2487443/pexels-photo-2487443.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+                <p style="font-size: 20px; position: absolute; top: 2px; color: white; background-color: green; right: 0px; border-radius: 15px;" class="p-1 w-50 d-flex justify-content-center">Vegetables</p>
+                <div class="card-body">
+                  <center>
+                    <h3>Apples</h3>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                  </center>
+                </div>
+                <div class="card-footer d-flex justify-content-evenly">
+                  <h4>$333/kg</h4>
+                  <button>
+                    <i class="fa-solid fa-bag-shopping fa-lg mx-1"></i>Add to Card
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--  -->
+  
+  <div class="Exotic container-fluid h-auto bg-warning p-5" style="margin-top: 15%;">
+    <div class="row">
+      <div class="col-md-6 mt-5">
+        <h1>Fresh Exotic Fruits</h1>
+        <h2>In Our Store</h2>
+        <p style="font-size: 1.25rem; color: dimgray;">The generated Lorem Ipsum is therefore always free from repetition injected humour, or non-characteristic words etc.</pv>
+        <br><br>
+        <button>Buy</button>
+      </div>
+      <div class="col-md-6 on_pic">
+        <img class="rounded" src="PIC1.png" alt="">
+        <div class="kg">
+          <h3> <strong>1</strong></span>kg $50</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!--  -->
+
+  <div class="container mt-3" style="margin-top: 15%;">
+    <div class="">
+      <center>
+        <h1 style="font-size: 3.5rem;">Bestseller Products</h1>
+        <p style="font-size: 25px;">Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable.</p>
+      </center>
+    </div>
+    <div class="row">
+      <div class="col-lg-4 col-md-4 col-md-6 mt-3">
+        <div class="box-con rounded d-flex justify-content-between p-4">
+          <div class="box-img w-50">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGpEIWmdjVXyYXgpr5k1DEqI4S_h2uk-SLEA&s" alt="">
+          </div>
+          <div style="margin-left: 5%;" class="w-50">
+            <h4>Organic Tomato</h4>
+            <i class="fa-solid fa-star" style="color: #63E6BE;"></i>
+            <i class="fa-solid fa-star" style="color: #63E6BE;"></i>
+            <i class="fa-solid fa-star" style="color: #63E6BE;"></i>
+            <i class="fa-solid fa-star" style="color: #63E6BE;"></i>
+            <i class="fa-solid fa-star"></i>
+            <p style="font-size: 25px;color: darkgrey;">3.12 <strong>$</strong></p>
+            <button style="border-radius: 10px; width: 130px; height: 45px; border: 2px solid orange;" class="text-success"><i class="fa-solid fa-bag-shopping"></i>&#160; Add to cart</button>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-lg-4 col-md-4 col-md-6 mt-3">
+        <div class="box-con rounded d-flex justify-content-between p-4">
+          <div class="box-img w-50">
+            <img src="https://cdn.britannica.com/83/156583-050-4A1FABB5/Red-raspberries.jpg" alt="">
+          </div>
+          <div style="margin-left: 5%;" class="w-50">
+            <h5>Organic Raspberry</h5>
+            <i class="fa-solid fa-star" style="color: #63E6BE;"></i>
+            <i class="fa-solid fa-star" style="color: #63E6BE;"></i>
+            <i class="fa-solid fa-star" style="color: #63E6BE;"></i>
+            <i class="fa-solid fa-star" style="color: #63E6BE;"></i>
+            <i class="fa-solid fa-star"></i>
+            <p style="font-size: 25px;color: darkgrey;">3.12 <strong>$</strong></p>
+            <button style="border-radius: 10px; width: 130px; height: 45px; border: 2px solid orange;" class="text-success"><i class="fa-solid fa-bag-shopping"></i>&#160; Add to cart</button>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-lg-4 col-md-4 col-md-6 mt-3">
+        <div class="box-con rounded d-flex justify-content-between p-4">
+          <div class="box-img w-50">
+            <img src="https://blog-images-1.pharmeasy.in/blog/production/wp-content/uploads/2021/01/30152155/shutterstock_518328943-1.jpg" alt="">
+          </div>
+          <div style="margin-left: 5%;" class="w-50">
+            <h4>Organic Banana</h4>
+            <i class="fa-solid fa-star" style="color: #63E6BE;"></i>
+            <i class="fa-solid fa-star" style="color: #63E6BE;"></i>
+            <i class="fa-solid fa-star" style="color: #63E6BE;"></i>
+            <i class="fa-solid fa-star" style="color: #63E6BE;"></i>
+            <i class="fa-solid fa-star"></i>
+            <p style="font-size: 25px;color: darkgrey;">3.12 <strong>$</strong></p>
+            <button style="border-radius: 10px; width: 130px; height: 45px; border: 2px solid orange;" class="text-success"><i class="fa-solid fa-bag-shopping"></i>&#160; Add to cart</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-4 col-md-6 mt-3">
+        <div class="box-con rounded d-flex justify-content-between p-4">
+          <div class="box-img w-50">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQA1BKBT47b-gwASwvmgtlnhUJNojmH3KZq9w&s" alt="">
+          </div>
+          <div style="margin-left: 5%;" class="w-50">
+            <h4>Organic Apricot</h4>
+            <i class="fa-solid fa-star" style="color: #63E6BE;"></i>
+            <i class="fa-solid fa-star" style="color: #63E6BE;"></i>
+            <i class="fa-solid fa-star" style="color: #63E6BE;"></i>
+            <i class="fa-solid fa-star" style="color: #63E6BE;"></i>
+            <i class="fa-solid fa-star"></i>
+            <p style="font-size: 25px;color: darkgrey;">3.12 <strong>$</strong></p>
+            <button style="border-radius: 10px; width: 130px; height: 45px; border: 2px solid orange;" class="text-success"><i class="fa-solid fa-bag-shopping"></i>&#160; Add to cart</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-4 col-md-6 mt-3">
+        <div class="box-con rounded d-flex justify-content-between p-4">
+          <div class="box-img w-50">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTUNelf6LWd4fNNrJDDXZRgxv9n4JnMDkx3Q&s" alt="">
+          </div>
+          <div style="margin-left: 5%;" class="w-50">
+            <h4>Organic Grape</h4>
+            <i class="fa-solid fa-star" style="color: #63E6BE;"></i>
+            <i class="fa-solid fa-star" style="color: #63E6BE;"></i>
+            <i class="fa-solid fa-star" style="color: #63E6BE;"></i>
+            <i class="fa-solid fa-star" style="color: #63E6BE;"></i>
+            <i class="fa-solid fa-star"></i>
+            <p style="font-size: 25px;color: darkgrey;">3.12 <strong>$</strong></p>
+            <button style="border-radius: 10px; width: 130px; height: 45px; border: 2px solid orange;" class="text-success"><i class="fa-solid fa-bag-shopping"></i>&#160; Add to cart</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-4 col-md-6 mt-3">
+        <div class="box-con rounded d-flex justify-content-between p-4">
+          <div class="box-img w-50">
+            <img src="https://freshindiaorganics.com/cdn/shop/products/Apples.jpg?v=1686739530" alt="">
+          </div>
+          <div style="margin-left: 5%;" class="w-50">
+            <h4>Organic Apple</h4>
+            <i class="fa-solid fa-star" style="color: #63E6BE;"></i>
+            <i class="fa-solid fa-star" style="color: #63E6BE;"></i>
+            <i class="fa-solid fa-star" style="color: #63E6BE;"></i>
+            <i class="fa-solid fa-star" style="color: #63E6BE;"></i>
+            <i class="fa-solid fa-star"></i>
+            <p style="font-size: 25px;color: darkgrey;">3.12 <strong>$</strong></p>
+            <button style="border-radius: 10px; width: 130px; height: 45px; border: 2px solid orange;" class="text-success"><i class="fa-solid fa-bag-shopping"></i>&#160; Add to cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br><br>
+
+    <div class="row">
+      <div class="col-lg-3 col-md-3 col-md-6 mt-5">
+        <div class="box-item h-auto">
+          <center><img class="img-fluid" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTu5XZRw0gTi1rW4TJx-hSofyg2uoMSO6ga9g&s" alt=""></center>
+          <center class="mt-3">
+            <h4>Organic Oranges</h4>
+            <i class="fa-solid fa-star" style="color: #63E6BE;"></i>
+            <i class="fa-solid fa-star" style="color: #63E6BE;"></i>
+            <i class="fa-solid fa-star" style="color: #63E6BE;"></i>
+            <i class="fa-solid fa-star" style="color: #63E6BE;"></i>
+            <i class="fa-solid fa-star"></i>
+            <p style="font-size: 25px;color: darkgrey;">3.12 <strong>$</strong></p>
+            <button style="border-radius: 10px; width: 130px; height: 45px; border: 2px solid orange;" class="text-success"><i class="fa-solid fa-bag-shopping"></i>&#160; Add to cart</button>
+          </center>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-3 col-md-6 mt-5">
+        <div class="box-item h-auto">
+          <center><img class="img-fluid" src="https://statics.vinpearl.com/Vietnamese-mango-2_1702197210.jpg" alt=""></center>
+          <center class="mt-3">
+            <h4>Organic Mango</h4>
+            <i class="fa-solid fa-star" style="color: #63E6BE;"></i>
+            <i class="fa-solid fa-star" style="color: #63E6BE;"></i>
+            <i class="fa-solid fa-star" style="color: #63E6BE;"></i>
+            <i class="fa-solid fa-star" style="color: #63E6BE;"></i>
+            <i class="fa-solid fa-star"></i>
+            <p style="font-size: 25px;color: darkgrey;">3.12 <strong>$</strong></p>
+            <button style="border-radius: 10px; width: 130px; height: 45px; border: 2px solid orange;" class="text-success"><i class="fa-solid fa-bag-shopping"></i>&#160; Add to cart</button>
+          </center>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-3 col-md-6 mt-5">
+        <div class="box-item h-auto">
+          <center><img class="img-fluid" src="https://hips.hearstapps.com/hmg-prod/images/apples-royalty-free-image-164084111-1537885595.jpg?crop=1xw:0.84375xh;center,top&resize=1200:*" alt=""></center>
+          <center class="mt-3">
+            <h4>Organic Apple</h4>
+            <i class="fa-solid fa-star" style="color: #63E6BE;"></i>
+            <i class="fa-solid fa-star" style="color: #63E6BE;"></i>
+            <i class="fa-solid fa-star" style="color: #63E6BE;"></i>
+            <i class="fa-solid fa-star" style="color: #63E6BE;"></i>
+            <i class="fa-solid fa-star"></i> 
+            <p style="font-size: 25px;color: darkgrey;">3.12 <strong>$</strong></p>
+            <button style="border-radius: 10px; width: 130px; height: 45px; border: 2px solid orange;" class="text-success"><i class="fa-solid fa-bag-shopping"></i>&#160; Add to cart</button>
+          </center>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-3 col-md-6 mt-5">
+        <div class="box-item h-auto">
+          <center><img class="img-fluid" src="https://parade.com/.image/t_share/MTkwNTc5NTIwNTYzNTIxNDA0/rambutan-ftr.jpg" alt=""></center>
+          <center class="mt-3">
+            <h4>Organic Rambutan</h4>
+            <i class="fa-solid fa-star" style="color: #63E6BE;"></i>
+            <i class="fa-solid fa-star" style="color: #63E6BE;"></i>
+            <i class="fa-solid fa-star" style="color: #63E6BE;"></i>
+            <i class="fa-solid fa-star" style="color: #63E6BE;"></i>
+            <i class="fa-solid fa-star"></i>
+            <p style="font-size: 25px;color: darkgrey;">3.12 <strong>$</strong></p>
+            <button style="border-radius: 10px; width: 130px; height: 45px; border: 2px solid orange;" class="text-success"><i class="fa-solid fa-bag-shopping"></i>&#160; Add to cart</button>
+          </center>
+        </div>
+      </div>
+    </div>
+  </div>
+
+ <!--  -->
+
+  <div style="background-color:whitesmoke;margin-top: 20%;" class="container h-auto mt-3 p-2">
+    <div class="row p-3">
+      <div class="col-lg-3 col-md-3 col-md-6 mt-3">
+        <div style="border-radius: 15px; box-shadow: 1.5px black;" class="boxcard bg-light p-5 border">
+          <center>
+            <i class="fa-solid fa-users" style="color: #FFD43B; font-size: 4.5rem;"></i>
+            <h2 class="text-uppercase mt-3 text-success">satisfied customers</h1>
+            <h1 class="text-dark">1963</h1>
+          </center>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-3 col-md-6 mt-3">
+        <div style="border-radius: 15px; box-shadow: 1.5px black;" class="boxcard bg-light p-5 border">
+          <center>
+            <i class="fa-solid fa-users" style="color: #FFD43B; font-size: 4.5rem;"></i>
+            <h2 class="text-uppercase mt-3 text-success">quality of service</h1>
+            <h1 class="text-dark">99.99%</h1>
+          </center>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-3 col-md-6 mt-3">
+        <div style="border-radius: 15px; box-shadow: 1.5px black;" class="boxcard bg-light p-5 border">
+          <center>
+            <i class="fa-solid fa-users" style="color: #FFD43B; font-size: 4.5rem;"></i>
+            <h2 class="text-uppercase mt-3 text-success">quality certificates</h1>
+            <h1 class="text-dark">100</h1>
+          </center>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-3 col-md-6 mt-3">
+        <div style="border-radius: 15px; box-shadow: 1.5px black;" class="boxcard bg-light p-5 border">
+          <center>
+            <i class="fa-solid fa-users" style="color: #FFD43B; font-size: 4.5rem;"></i>
+            <h2 class="text-uppercase mt-3 text-success">available products</h1>
+            <h1 class="text-dark">789</h1>
+          </center>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--  -->
+
+  <div id="Example" class="carousel slide container slid-products" data-bs-ride="carousel" style="margin-top: 15%;">
+    <center>
+      <h4 class="text-success">Our Testimonial</h4>
+      <h1>Our Client Saying!</h1>
+    </center>
+    <div class="flex-slide row d-flex justify-content-between">
+      <h1 class="col-md-6"></h1>
+      <div class="group_btn col-md-6 d-flex justify-content-end">
+        <button data-bs-target="#Example" data-bs-slide="prev"><i class="fa-solid fa-arrow-right"></i></button>
+        <button data-bs-target="#Example" data-bs-slide="next"><i class="fa-solid fa-arrow-left"></i></button>
+      </div>
+    </div>
+    <div class="carousel-inner">
+      <div class="">
+        <div class="carousel-item active" data-bs-interval="5000">
+          <div class="row">
+            <div class="col-lg-6 col-md-6 mt-5">
+              <div style="border-radius: 20px;background-color:aliceblue;" class="cardclient p-4">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi ipsum ut laudantium facilis dignissimos autem.</p>
+                <hr class="mt-4" style="color: orange; height: 2px;">
+                <div class="d-flex justify-content-between">
+                  <div class="detail w-50 d-flex justify-content-between">
+                    <img class="img-fluid w-25" src="https://futureoflife.org/wp-content/uploads/2020/08/elon_musk_royal_society.jpg" alt="">
+                    <div style="margin-left: 5%;" class="w-75">
+                      <h3>Elon Mask</h3>
+                      <p>Businessman</p>
+                      <i class="fa-solid fa-star" style="color: #63E6BE;"></i>
+                      <i class="fa-solid fa-star" style="color: #63E6BE;"></i>
+                      <i class="fa-solid fa-star" style="color: #63E6BE;"></i>
+                      <i class="fa-solid fa-star" style="color: #63E6BE;"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                  </div>
+                  <div style="font-size: 3rem;" class="w-50 d-flex justify-content-end mt-5"><i class="fa-solid fa-quote-right" style="color: #FFD43B;"></i></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6 col-md-6 mt-5">
+              <div style="border-radius: 20px;background-color:aliceblue;" class="cardclient p-4">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi ipsum ut laudantium facilis dignissimos autem.</p>
+                
+                <hr class="mt-4" style="color: orange; height: 2px;">
+                <div class="d-flex justify-content-between">
+                  <div class="detail w-50 d-flex justify-content-between">
+                    <img class="img-fluid w-25" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzgcMXgjgzOqFm_ZiFtk07q2ZKiWanW8gPQA&s" alt="">
+                    <div style="margin-left: 5%;" class="w-75">
+                      <h3>Jeff Benzos</h3>
+                      <p>Businessman</p>
+                      <i class="fa-solid fa-star" style="color: #63E6BE;"></i>
+                      <i class="fa-solid fa-star" style="color: #63E6BE;"></i>
+                      <i class="fa-solid fa-star" style="color: #63E6BE;"></i>
+                      <i class="fa-solid fa-star" style="color: #63E6BE;"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                  </div>
+                  <div style="font-size: 3rem;" class="w-50 d-flex justify-content-end mt-5"><i class="fa-solid fa-quote-right" style="color: #FFD43B;"></i></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="5000">
+          <div class="row">
+            <div class="col-lg-6 col-md-6 mt-5">
+              <div style="border-radius: 20px;background-color:aliceblue;" class="cardclient p-4">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi ipsum ut laudantium facilis dignissimos autem.</p>
+                
+                <hr class="mt-4" style="color: orange; height: 2px;">
+                <div class="d-flex justify-content-between">
+                  <div class="detail w-50 d-flex justify-content-between">
+                    <img class="img-fluid w-25" src="https://upload.wikimedia.org/wikipedia/commons/1/18/Mark_Zuckerberg_F8_2019_Keynote_%2832830578717%29_%28cropped%29.jpg" alt="">
+                    <div style="margin-left: 5%;" class="w-75">
+                      <h4>Mark Zuckerberg</h4>
+                      <p>CEO of Facebook</p>
+                      <i class="fa-solid fa-star" style="color: #63E6BE;"></i>
+                      <i class="fa-solid fa-star" style="color: #63E6BE;"></i>
+                      <i class="fa-solid fa-star" style="color: #63E6BE;"></i>
+                      <i class="fa-solid fa-star" style="color: #63E6BE;"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                  </div>
+                  <div style="font-size: 3rem;" class="w-50 d-flex justify-content-end mt-5"><i class="fa-solid fa-quote-right" style="color: #FFD43B;"></i></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6 col-md-6 mt-5">
+              <div style="border-radius: 20px;background-color:aliceblue;" class="cardclient p-4">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi ipsum ut laudantium facilis dignissimos autem.</p>
+                
+                <hr class="mt-4" style="color: orange; height: 2px;">
+                <div class="d-flex justify-content-between">
+                  <div class="detail w-50 d-flex justify-content-between">
+                    <img class="img-fluid w-25" src="https://ew.com/thmb/GEXdmt1owQCf6qMHzWWzTJR5tz8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/steve-jobs_l1-1d01f6fdad88463db87ed7a0af53cfaf.jpg" alt="">
+                    <div style="margin-left: 5%;" class="w-75">
+                      <h3>Steve Job</h3>
+                      <p>Former CEO of Apple</p>
+                      <i class="fa-solid fa-star" style="color: #63E6BE;"></i>
+                      <i class="fa-solid fa-star" style="color: #63E6BE;"></i>
+                      <i class="fa-solid fa-star" style="color: #63E6BE;"></i>
+                      <i class="fa-solid fa-star" style="color: #63E6BE;"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                  </div>
+                  <div style="font-size: 3rem;" class="w-50 d-flex justify-content-end mt-5"><i class="fa-solid fa-quote-right" style="color: #FFD43B;"></i></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item" data-bs-interval="5000">
+          <div class="row">
+            <div class="col-lg-6 col-md-6 mt-5">
+              <div style="border-radius: 20px;background-color:aliceblue;" class="cardclient p-4">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi ipsum ut laudantium facilis dignissimos autem.</p>
+                
+                <hr class="mt-4" style="color: orange; height: 2px;">
+                <div class="d-flex justify-content-between">
+                  <div class="detail w-50 d-flex justify-content-between">
+                    <img class="img-fluid w-25" src="https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2019%2F03%2Fbernard-arnault-warren-buffett-lvmh-net-worth-1.jpg?cbr=1&q=90" alt="">
+                    <div style="margin-left: 5%;" class="w-75">
+                      <h4>Bernard Arnault</h4>
+                      <p>CEO of LVMH</p>
+                      <i class="fa-solid fa-star" style="color: #63E6BE;"></i>
+                      <i class="fa-solid fa-star" style="color: #63E6BE;"></i>
+                      <i class="fa-solid fa-star" style="color: #63E6BE;"></i>
+                      <i class="fa-solid fa-star" style="color: #63E6BE;"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                  </div>
+                  <div style="font-size: 3rem;" class="w-50 d-flex justify-content-end mt-5"><i class="fa-solid fa-quote-right" style="color: #FFD43B;"></i></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6 col-md-6 mt-5">
+              <div style="border-radius: 20px;background-color:aliceblue;" class="cardclient p-4">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi ipsum ut laudantium facilis dignissimos autem.</p>
+                
+                <hr class="mt-4" style="color: orange; height: 2px;">
+                <div class="d-flex justify-content-between">
+                  <div class="detail w-50 d-flex justify-content-between">
+                    <img class="img-fluid w-25" src="https://img.jagranjosh.com/imported/images/E/GK/jack-ma-biography.webp" alt="">
+                    <div style="margin-left: 5%;" class="w-75">
+                      <h4>Jack Ma</h4>
+                      <p>Businessman and Investor</p>
+                      <i class="fa-solid fa-star" style="color: #63E6BE;"></i>
+                      <i class="fa-solid fa-star" style="color: #63E6BE;"></i>
+                      <i class="fa-solid fa-star" style="color: #63E6BE;"></i>
+                      <i class="fa-solid fa-star" style="color: #63E6BE;"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                  </div>
+                  <div style="font-size: 3rem;" class="w-50 d-flex justify-content-end mt-5"><i class="fa-solid fa-quote-right" style="color: #FFD43B;"></i></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--  -->
+
+  <div style="background-color:darkslategrey; position: relative; margin-top: 15%;" class="footer w-100 h-auto">
+    <div class="container-fluid p-5">
+        <div class="row">
+          <div class="col-lg-3 col-md-3 col-md-12">
+            <div class="navbar-brand"><h1 style="font-size: 2rem;" class="text-success">The Light</h1></div>
+            <h5 class="text-warning">Fresh Products</h5>
+          </div>
+          <div class="col-lg-3 col-md-3 col-md-6 mt-3 w-50">
+            <div class="nomally input-group">
+              <input type="text" class="form-control" placeholder="Search" aria-label="Recipient's username" aria-describedby="button-addon2">
+              <button class="btn rounded-pill" type="button" id="button-addon2">Button</button>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-md-12 mt-3">
+            <div class="gp_btn">
+              <button class="slo btn" type="button">
+                <i class="fa-brands fa-twitter" style="color: #FFD438; font-size: 1rem; margin: 0%;"></i>
+              </button>
+              <button class="slo btn" type="button">
+                <i class="fa-brands fa-facebook" style="color: #FFD438; font-size: 1rem; margin: 0%;"></i>
+              </button>
+              <button class="slo btn" type="button">
+                <i class="fa-brands fa-youtube" style="color: #FFD438; font-size: 1rem; margin: 0%;"></i>
+              </button>
+              <button class="slo btn" type="button">
+                <i class="fa-brands fa-instagram" style="color: #FFD438; font-size: 1rem; margin: 0%;"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+        <hr class="mt-4" style="color: orange; height: 4px;">
+        <div class="row">
+          <div class="col-lg-3 col-md-3 col-md-6 mt-5">
+            <div class="con-info text-light">
+              <h3>Why People Like Us!</h3>
+              <p>typesetting, remaining essentially unchanged. It was popularised in the 1960s with the like Aldus PageMaker including of Lorem Ipsum.</p>
+              <button>Read More</button>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-md-6 mt-5">
+            <div class="con-info text-light">
+              <h3>Shop Info</h3>
+              <ul class="list-unstyled">
+                <li><a href="#"></a>About Us</li>
+                <li><a href="#"></a>Contact Us</li>
+                <li><a href="#"></a>Privacy Policy</li>
+                <li><a href="#"></a>Term & Condition</li>
+                <li><a href="#"></a>Return Policy</li>
+                <li><a href="#"></a>FAQs & Help</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-md-6 mt-5">
+            <div class="con-info text-light">
+              <h3>Account</h3>
+              <ul class="list-unstyled">
+                <li><a href="#"></a>My Account</li>
+                <li><a href="#"></a>Shop Details</li>
+                <li><a href="#"></a>Shopping Cart</li>
+                <li><a href="#"></a>Wishlist</li>
+                <li><a href="#"></a>Order History</li>
+                <li><a href="#"></a>International Orders</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-md-6 mt-5">
+            <div class="con-info text-light">
+              <h3>Contact</h3>
+              <p>Address: 217H Russey Keo, Phnom Penh</p>
+              <p>Email: ponleuproem6889@gmail.com</p>
+              <p>Phone: +855 975 438 840</p>
+              <p>Payment Accepted</p>
+              <div class="boxbank d-flex justify-content-between w-25">
+                <img src="https://km.visamiddleeast.com/content/dam/VCOM/blogs/visa-blue-gradient-800x450.jpg" alt="">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwqeK4YwRLe6_Jo3S708Zc7OR8kgSsdPQiVQ&s" alt="">
+                <img src="https://ibccambodia.com/wp-content/uploads/2023/09/ABA-Logo-Secondary.png.webp" alt="">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVnE0_oM-DBMjhgZ2M1OZfEXYHa3a_4qrjsg&s" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+        <br>
+        <div class="row">
+          <div style="font-size: 20px;" class="col-lg-6 col-md-12 mt-3">
+            <i class="fa-solid fa-copyright" style="color: #FFD43B;"></i>
+            <a class="text-success" href="#">The Light</a><span class="text-light">,All right reserved</span>
+          </div>
+          <div style="font-size: 20px;" class="col-lg-6 col-md-12 mt-3">
+            <span class="float-end text-light">Designed By <a class="text-success" href="#">Mr.Ponleu</a> Distributed By <a class="text-success" href="#">The Light</a></span>
+          </div>
+        </div>
+    </div>
+  </div>
+
+  <button class="chic" type="button">
+    <a href="#"><i class="fa-solid fa-arrow-up" style="color: white; font-size: 1rem; margin: 0%;"></i></a>
+  </button>
+</body>
+<script src="/bootrap/bootstrap.bundle.min.js"></script>
+</html>
